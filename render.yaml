@@ -9,7 +9,3 @@ services:
         value: production
       - key: DATA_DIR
         value: /data
-    disk:
-      name: chess-games-data
-      mountPath: /data
-      sizeGB: 1
